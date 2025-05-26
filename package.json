@@ -1,0 +1,17 @@
+{
+  "name": "nft-collection",
+  "version": "1.0.0",
+  "description": "NFT Collection fullstack project",
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run serve\"",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
